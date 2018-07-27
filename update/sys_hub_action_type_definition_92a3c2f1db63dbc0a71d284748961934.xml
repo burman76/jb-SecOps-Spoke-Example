@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation>Find supported integration for a specific security capability</annotation>
+        <category display_value="SecOps Core">8321caa5dba39bc0a71d284748961936</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Gets a list of supported integrations for a specific security capability type.</description>
+        <internal_name>get_supported_security_capabilities</internal_name>
+        <label_cache>[{"name":"{{action.capability_name}}","label":"action➛Capability Name","type":"action","ref":""},{"name":"{{action.domain_id}}","label":"action➛Domain Id","type":"action","ref":""},{"name":"{{step[8cbb0ee4-ff45-40f7-8736-b642a8755b57].capabilityCount}}","label":"step➛Get Supported Capabilities➛capabilityCount","type":"step","ref":""},{"name":"{{step[8cbb0ee4-ff45-40f7-8736-b642a8755b57].supportedCapabilities}}","label":"step➛Get Supported Capabilities➛supportedCapabilities","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>c4f3e675dbe3dbc0a71d284748961902</latest_snapshot>
+        <master_snapshot>fad36675dbe3dbc0a71d284748961920</master_snapshot>
+        <name>Get Supported Security Capabilities</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 18:09:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>92a3c2f1db63dbc0a71d284748961934</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get Supported Security Capabilities</sys_name>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_92a3c2f1db63dbc0a71d284748961934</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:30:24</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=92a3c2f1db63dbc0a71d284748961934"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>92a3c2f1db63dbc0a71d284748961934</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 18:12:42</sys_created_on>
+        <sys_id>13648235db63dbc0a71d2847489619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 18:12:42</sys_updated_on>
+        <value/>
+        <variable display_value="">5f648235db63dbc0a71d2847489619ca</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=92a3c2f1db63dbc0a71d284748961934"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capability_count2</field>
+        <id>92a3c2f1db63dbc0a71d284748961934</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 18:12:42</sys_created_on>
+        <sys_id>9f648235db63dbc0a71d2847489619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 18:12:42</sys_updated_on>
+        <table>var__m_sys_hub_action_output_92a3c2f1db63dbc0a71d284748961934</table>
+        <value>{{step[8cbb0ee4-ff45-40f7-8736-b642a8755b57].capabilityCount}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>supported_capabilities1</field>
+        <id>92a3c2f1db63dbc0a71d284748961934</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 18:12:42</sys_created_on>
+        <sys_id>db648235db63dbc0a71d2847489619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 18:12:42</sys_updated_on>
+        <table>var__m_sys_hub_action_output_92a3c2f1db63dbc0a71d284748961934</table>
+        <value>{{step[8cbb0ee4-ff45-40f7-8736-b642a8755b57].supportedCapabilities}}</value>
+    </sys_element_mapping>
+</record_update>

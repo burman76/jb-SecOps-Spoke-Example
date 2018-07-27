@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Filter whitelisted / blocked observables">4f318aa5dba39bc0a71d2847489619a6</action>
+        <cid>78e293f2-c3d4-4c72-9cc8-2f2941db883a</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Filter Observable IDs</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-26 23:26:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>2ca2cee5dba39bc0a71d284748961994</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Filter Observable IDs</sys_name>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_step_instance_2ca2cee5dba39bc0a71d284748961994</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 17:42:30</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2ca2cee5dba39bc0a71d284748961994"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ca2cee5dba39bc0a71d284748961994</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-26 23:26:24</sys_created_on>
+        <sys_id>34a2cee5dba39bc0a71d2847489619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-26 23:26:24</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2ca2cee5dba39bc0a71d284748961994</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-26 23:26:24</sys_created_on>
+        <sys_id>f4a2cee5dba39bc0a71d2847489619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-26 23:26:24</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+var observableIds = inputs.observable_ids;
+if (Object.prototype.toString.call(observableIds) === '[object Array]' )
+	observableIds = observableIds.join(',');
+
+var filteredMap = {'ids': [], 'values': []};
+var m2mGr = new GlideRecord('sn_sec_cmn_applied_security_tag');
+m2mGr.addQuery('security_tag', 'e6e6ea180b503200263a089b37673a08,02b371da0b823200263a089b37673af3'); // whitelisted / blocked
+m2mGr.addQuery('record_table', 'sn_ti_observable');
+m2mGr.addQuery('record_id', 'IN', observableIds);
+m2mGr.query();
+while (m2mGr.next()) {
+	filteredMap['ids'].push(m2mGr.getValue('record_id'));
+	filteredMap['values'].push(m2mGr.getDisplayValue('record_id'));
+}
+outputs.filteredMap = filteredMap;
+  
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2ca2cee5dba39bc0a71d284748961994"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>2ca2cee5dba39bc0a71d284748961994</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-26 23:26:24</sys_created_on>
+        <sys_id>f8a2cee5dba39bc0a71d2847489619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-26 23:26:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observable_ids</field>
+        <id>2ca2cee5dba39bc0a71d284748961994</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-26 23:26:24</sys_created_on>
+        <sys_id>f0a2cee5dba39bc0a71d2847489619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-26 23:26:24</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_2ca2cee5dba39bc0a71d284748961994</table>
+        <value>{{action.observable_ids}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>2ca2cee5dba39bc0a71d284748961994</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-26 23:26:24</sys_created_on>
+        <sys_id>b0a2cee5dba39bc0a71d2847489619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-26 23:26:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

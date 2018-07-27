@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="capability_count2" label="Capability Count" language="en" table="var__m_sys_hub_action_output_16d32675dbe3dbc0a71d2847489619d6">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>capability_count2</element>
+            <help/>
+            <hint/>
+            <label>Capability Count</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_16d32675dbe3dbc0a71d2847489619d6</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jake.burman</sys_created_by>
+            <sys_created_on>2018-07-27 20:30:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7ad36675dbe3dbc0a71d28474896191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Capability Count</sys_name>
+            <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_16d32675dbe3dbc0a71d2847489619d6_capability_count2_en</sys_update_name>
+            <sys_updated_by>jake.burman</sys_updated_by>
+            <sys_updated_on>2018-07-27 20:30:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation>Filter whitelisted / blocked observables
+
+This is a sample description
+
+inputs ...
+outputs ....
+data .... ...</annotation>
+        <category display_value="SecOps Core">8321caa5dba39bc0a71d284748961936</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Test test test
+
+test test test</description>
+        <internal_name>filter_whitelisted_/_blocked_observables</internal_name>
+        <label_cache>[{"name":"{{action.observable_ids}}","label":"action➛Observable IDs","type":"action","ref":""},{"name":"{{action.task_sys_id}}","label":"action➛Task Sys_ID","type":"action","ref":""},{"name":"{{step[78e293f2-c3d4-4c72-9cc8-2f2941db883a].filteredMap}}","label":"step➛Filter Observable IDs➛filteredMap","type":"step","ref":""},{"name":"{{step[30de18b4-6c19-4165-9496-e28c4f91939d].observableIds}}","label":"step➛Convert array to string➛observableIds","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>f1142e75dbe3dbc0a71d2847489619ec</latest_snapshot>
+        <master_snapshot>5e146e75dbe3dbc0a71d284748961964</master_snapshot>
+        <name>Filter whitelisted / blocked observables</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-26 23:20:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4f318aa5dba39bc0a71d2847489619a6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Filter whitelisted / blocked observables</sys_name>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_4f318aa5dba39bc0a71d2847489619a6</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:31:07</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=4f318aa5dba39bc0a71d2847489619a6"/>
+    <sys_element_mapping action="delete_multiple" query="id=4f318aa5dba39bc0a71d2847489619a6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observable_ids</field>
+        <id>4f318aa5dba39bc0a71d2847489619a6</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 17:42:32</sys_created_on>
+        <sys_id>a18d713ddb23dbc0a71d2847489619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 17:42:32</sys_updated_on>
+        <table>var__m_sys_hub_action_output_4f318aa5dba39bc0a71d2847489619a6</table>
+        <value>{{step[30de18b4-6c19-4165-9496-e28c4f91939d].observableIds}}</value>
+    </sys_element_mapping>
+</record_update>

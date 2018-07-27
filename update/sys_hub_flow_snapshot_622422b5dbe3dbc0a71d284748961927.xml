@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation>Threat Lookup</annotation>
+        <category display_value="SecOps Core">8321caa5dba39bc0a71d284748961936</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Threat Lookup Flow Description</description>
+        <internal_name>security_operations_integration_-_threat_lookup</internal_name>
+        <label_cache>[{"name":"subflow.task.sys_id","label":"Input➛Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id"},{"name":"8c60b8de-e92a-49d8-8920-4f9feed2e991.capability_execution_id","label":"1➛Capability Execution Id","type":"string","base_type":"string"},{"name":"subflow.task","label":"Input➛Task","reference":"task","reference_display":"Task","type":"reference","base_type":"reference"},{"name":"subflow.domain_id","label":"Input➛Domain ID","reference":"","reference_display":"","type":"domain_id","base_type":"domain_id","column_name":""},{"name":"subflow.observable_ids","label":"Input➛Observable IDs","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"subflow.implementation_ids","label":"Input➛Implementation IDs","reference":"","reference_display":"","type":"string","base_type":"string","column_name":""},{"name":"3a0c5b7f-8699-49a9-af3b-932cea11465a.supported_capabilities1","label":"2.1➛Supported Capabilities","reference_display":"Supported Capabilities","type":"string","base_type":"string"},{"name":"3a0c5b7f-8699-49a9-af3b-932cea11465a.capability_count2","label":"2.1➛Capability Count","reference_display":"Capability Count","type":"integer","base_type":"integer"},{"name":"subflow.task.sys_domain","label":"Input➛Task➛Domain","reference":"sys_user_group","reference_display":"Group","type":"domain_id","base_type":"domain_id","parent_table_name":"task","column_name":"sys_domain"},{"name":"abb4b0b0-9f2a-487a-b0c6-9644cb1b7349.observable_ids","label":"2.2.1➛Observable IDs","reference_display":"Observable IDs","type":"string","base_type":"string"}]</label_cache>
+        <master>true</master>
+        <name>Security Operations Integration - Threat Lookup</name>
+        <outputs/>
+        <parent_flow display_value="Security Operations Integration - Threat Lookup">0d114271db63dbc0a71d28474896190c</parent_flow>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:31:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>622422b5dbe3dbc0a71d284748961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security Operations Integration - Threat Lookup</sys_name>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_622422b5dbe3dbc0a71d284748961927</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:31:22</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=622422b5dbe3dbc0a71d284748961927"/>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation>Starts initial tracking of the capability/implementation execution</annotation>
+        <category display_value="SecOps Core">8321caa5dba39bc0a71d284748961936</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Starts initial tracking of the capability/implementation execution</description>
+        <internal_name>execution_tracking_-_begin</internal_name>
+        <label_cache>[{"name":"{{action.capability_id}}","label":"action➛Capability Id","type":"action","ref":""},{"name":"{{action.implementation_id}}","label":"action➛Implementation Id","type":"action","ref":""},{"name":"{{action.task_id}}","label":"action➛Task Id","type":"action","ref":""},{"name":"{{action.record_table}}","label":"action➛Record Table","type":"action","ref":""},{"name":"{{action.record_ids}}","label":"action➛Record Ids","type":"action","ref":""},{"name":"{{action.workflow_context_id}}","label":"action➛Workflow Context Id","type":"action","ref":""},{"name":"{{action.workflow_name}}","label":"action➛Workflow Name","type":"action","ref":""},{"name":"{{action.parent_capability_execution_id}}","label":"action➛Parent Capability Execution Id","type":"action","ref":""},{"name":"{{action.domain_id}}","label":"action➛Domain Id","type":"action","ref":""},{"name":"{{step[0fbbd269-5c8c-4539-832a-8b343045b4ba].capabilityExecutionId}}","label":"step➛get Capability Execution Id➛capabilityExecutionId","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Execution Tracking - Begin</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Execution Tracking - Begin">92b14e71db63dbc0a71d2847489619ff</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:30:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d104aa75dbe3dbc0a71d284748961903</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Execution Tracking - Begin</sys_name>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_d104aa75dbe3dbc0a71d284748961903</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:30:46</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=d104aa75dbe3dbc0a71d284748961903"/>
+    <sys_element_mapping action="delete_multiple" query="id=d104aa75dbe3dbc0a71d284748961903"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capability_execution_id</field>
+        <id>d104aa75dbe3dbc0a71d284748961903</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:30:47</sys_created_on>
+        <sys_id>3904aa75dbe3dbc0a71d2847489619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:30:47</sys_updated_on>
+        <table>var__m_sys_hub_action_output_d104aa75dbe3dbc0a71d284748961903</table>
+        <value>{{step[0fbbd269-5c8c-4539-832a-8b343045b4ba].capabilityExecutionId}}</value>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category display_value="SecOps Core">8321caa5dba39bc0a71d284748961936</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>secops_threat_launcher</internal_name>
+        <label_cache>[{"name":"{{action.implementation_ids}}","label":"action➛Implementation Ids","type":"action","ref":""},{"name":"{{action.domain_id}}","label":"action➛Domain Id","type":"action","ref":""},{"name":"{{action.supported_capabilities}}","label":"action➛Supported Capabilities","type":"action","ref":""},{"name":"{{action.observable_ids}}","label":"action➛Observable Ids","type":"action","ref":""},{"name":"{{action.capability_execution_id}}","label":"action➛Capability Execution Id","type":"action","ref":""},{"name":"{{action.task_sys_id}}","label":"action➛Task Sys_Id","type":"action","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].}}","label":"step➛Get Workflows➛","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].c}}","label":"step➛Get Workflows➛c","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].co}}","label":"step➛Get Workflows➛co","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].coo}}","label":"step➛Get Workflows➛coo","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].coor}}","label":"step➛Get Workflows➛coor","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].coord}}","label":"step➛Get Workflows➛coord","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].coordi}}","label":"step➛Get Workflows➛coordi","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].coordin}}","label":"step➛Get Workflows➛coordin","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].coordina}}","label":"step➛Get Workflows➛coordina","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].coordinat}}","label":"step➛Get Workflows➛coordinat","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].coordinato}}","label":"step➛Get Workflows➛coordinato","type":"step","ref":""},{"name":"{{step[6f6ffd5f-d970-484e-99e7-e70a5bb5cb77].coordinator}}","label":"step➛Get Workflows➛coordinator","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>5d93ae35dbe3dbc0a71d284748961977</latest_snapshot>
+        <master_snapshot>7d93ae35dbe3dbc0a71d2847489619e3</master_snapshot>
+        <name>SecOps Threat Launcher</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 18:22:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e8b602b5db63dbc0a71d2847489619ed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>SecOps Threat Launcher</sys_name>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_e8b602b5db63dbc0a71d2847489619ed</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:28:54</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=e8b602b5db63dbc0a71d2847489619ed"/>
+</record_update>

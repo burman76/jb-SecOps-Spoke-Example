@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="SecOps Threat Launcher">e8b602b5db63dbc0a71d2847489619ed</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Security Operations Integration - Threat Lookup">0d114271db63dbc0a71d28474896190c</flow>
+        <order>2.2.2</order>
+        <parent_ui_id>0d34f771-a9ce-49c0-9175-1f0ef77fbcd6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:26:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d413a635dbe3dbc0a71d284748961924</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_action_instance_d413a635dbe3dbc0a71d284748961924</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:35:45</sys_updated_on>
+        <ui_id>b80d097f-7eca-4786-9b14-fad4b95be17f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d413a635dbe3dbc0a71d284748961924"/>
+    <sys_element_mapping action="delete_multiple" query="id=d413a635dbe3dbc0a71d284748961924"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capability_execution_id</field>
+        <id>d413a635dbe3dbc0a71d284748961924</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:26:35</sys_created_on>
+        <sys_id>a813a635dbe3dbc0a71d28474896192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:26:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e8b602b5db63dbc0a71d2847489619ed</table>
+        <value>{{8c60b8de-e92a-49d8-8920-4f9feed2e991.capability_execution_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>domain_id</field>
+        <id>d413a635dbe3dbc0a71d284748961924</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:26:35</sys_created_on>
+        <sys_id>e813a635dbe3dbc0a71d28474896192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:26:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e8b602b5db63dbc0a71d2847489619ed</table>
+        <value>{{subflow.domain_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>implementation_ids</field>
+        <id>d413a635dbe3dbc0a71d284748961924</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:26:35</sys_created_on>
+        <sys_id>ac13a635dbe3dbc0a71d28474896192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:26:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e8b602b5db63dbc0a71d2847489619ed</table>
+        <value>{{subflow.implementation_ids}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>observable_ids</field>
+        <id>d413a635dbe3dbc0a71d284748961924</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:26:35</sys_created_on>
+        <sys_id>6013a635dbe3dbc0a71d28474896192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:26:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e8b602b5db63dbc0a71d2847489619ed</table>
+        <value>{{abb4b0b0-9f2a-487a-b0c6-9644cb1b7349.observable_ids}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>supported_capabilities</field>
+        <id>d413a635dbe3dbc0a71d284748961924</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:26:35</sys_created_on>
+        <sys_id>e413a635dbe3dbc0a71d28474896192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:26:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e8b602b5db63dbc0a71d2847489619ed</table>
+        <value>{{3a0c5b7f-8699-49a9-af3b-932cea11465a.supported_capabilities1}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_sys_id</field>
+        <id>d413a635dbe3dbc0a71d284748961924</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:26:35</sys_created_on>
+        <sys_id>2413a635dbe3dbc0a71d28474896192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:26:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_e8b602b5db63dbc0a71d2847489619ed</table>
+        <value>{{subflow.task.sys_id}}</value>
+    </sys_element_mapping>
+</record_update>

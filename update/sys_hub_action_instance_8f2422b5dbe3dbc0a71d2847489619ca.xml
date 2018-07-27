@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Supported Security Capabilities">fad36675dbe3dbc0a71d284748961920</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot display_value="">92a3c2f1db63dbc0a71d284748961934</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Security Operations Integration - Threat Lookup">622422b5dbe3dbc0a71d284748961927</flow>
+        <order>2.1</order>
+        <parent_ui_id>3b0e29c8-3285-4989-b645-bdf197b96e41</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:31:24</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8f2422b5dbe3dbc0a71d2847489619ca</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_action_instance_8f2422b5dbe3dbc0a71d2847489619ca</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:35:41</sys_updated_on>
+        <ui_id>3a0c5b7f-8699-49a9-af3b-932cea11465a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8f2422b5dbe3dbc0a71d2847489619ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8f2422b5dbe3dbc0a71d2847489619ca</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:31:25</sys_created_on>
+        <sys_id>9b2422b5dbe3dbc0a71d2847489619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:31:25</sys_updated_on>
+        <value>Get Network Statistics</value>
+        <variable display_value="">bad36675dbe3dbc0a71d284748961923</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8f2422b5dbe3dbc0a71d2847489619ca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capability_name</field>
+        <id>8f2422b5dbe3dbc0a71d2847489619ca</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:31:25</sys_created_on>
+        <sys_id>1b2422b5dbe3dbc0a71d2847489619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:31:25</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fad36675dbe3dbc0a71d284748961920</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>domain_id</field>
+        <id>8f2422b5dbe3dbc0a71d2847489619ca</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:31:24</sys_created_on>
+        <sys_id>932422b5dbe3dbc0a71d2847489619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:31:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fad36675dbe3dbc0a71d284748961920</table>
+        <value>{{subflow.task.sys_domain}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_id</field>
+        <id>8f2422b5dbe3dbc0a71d2847489619ca</id>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 20:31:24</sys_created_on>
+        <sys_id>572422b5dbe3dbc0a71d2847489619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:31:24</sys_updated_on>
+        <table>var__m_sys_hub_action_input_fad36675dbe3dbc0a71d284748961920</table>
+        <value>{{subflow.task.sys_id}}</value>
+    </sys_element_mapping>
+</record_update>

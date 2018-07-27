@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation>No configured implementations were found for the given capability</annotation>
+        <category display_value="SecOps Core">8321caa5dba39bc0a71d284748961936</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Generic Capability Execution tracking activity. It marks the Capability Execution tracking record's state to Error based on the fact that no configured integration implementations were found for the given capability.
+This activity should be reused and added to any workflow that requires Capability Execution tracking. It's only requirement is that the capabilityExecutionId input be populated.</description>
+        <internal_name>capability_execution_tracking_-_no_impls</internal_name>
+        <label_cache>[{"name":"{{action.capability_execution_id}}","label":"action➛Capability Execution Id","type":"action","ref":""},{"name":"{{action.workflow_name}}","label":"action➛Workflow Name","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>09c3a275dbe3dbc0a71d2847489619bd</latest_snapshot>
+        <master_snapshot>9dc3a275dbe3dbc0a71d2847489619de</master_snapshot>
+        <name>Capability Execution Tracking - No Impls</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 18:14:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e0c4c235db63dbc0a71d284748961997</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Capability Execution Tracking - No Impls</sys_name>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_e0c4c235db63dbc0a71d284748961997</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:29:39</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=e0c4c235db63dbc0a71d284748961997"/>
+</record_update>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation>Marks the capability execution tracking record's state to complete.</annotation>
+        <category display_value="SecOps Core">8321caa5dba39bc0a71d284748961936</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Generic Capability Execution tracking activity. It marks the Capability Execution tracking record's state to Complete. This activity should be reused and added to any workflow that requires Capability Execution tracking. It's only requirement is that the capabilityExecutionId input be populated.</description>
+        <internal_name>capability_execution_tracking_-_complete</internal_name>
+        <label_cache>[{"name":"{{action.capability_execution_id}}","label":"action➛Capability Execution Id","type":"action","ref":""},{"name":"{{action.workflow_name}}","label":"action➛Workflow Name","type":"action","ref":""},{"name":"{{action.message}}","label":"action➛Message","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>38b36275dbe3dbc0a71d28474896192e</latest_snapshot>
+        <master_snapshot>0db36275dbe3dbc0a71d284748961959</master_snapshot>
+        <name>Capability Execution Tracking - Complete</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>jake.burman</sys_created_by>
+        <sys_created_on>2018-07-27 18:18:26</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dfb58275db63dbc0a71d284748961965</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Capability Execution Tracking - Complete</sys_name>
+        <sys_package display_value="jb-SecOps Spoke Example" source="x_snc_jb_secops_sp">50b08e65dba39bc0a71d284748961964</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="jb-SecOps Spoke Example">50b08e65dba39bc0a71d284748961964</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_dfb58275db63dbc0a71d284748961965</sys_update_name>
+        <sys_updated_by>jake.burman</sys_updated_by>
+        <sys_updated_on>2018-07-27 20:29:22</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=dfb58275db63dbc0a71d284748961965"/>
+</record_update>
